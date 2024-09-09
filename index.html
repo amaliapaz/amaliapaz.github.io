@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gatos Adorables</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" media="only screen and (max-width: 768px)" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>GATOS ADORABLES</h1>
+    </header>
+
+    <nav>
+        <a href="#historia">Historia de los Gatos</a>
+        <a href="#cuidados">Cuidados Básicos</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+
+    <div class="container">
+        <section id="historia" class="row">
+            <div class="col-md-6">
+                <h2>Historia de los Gatos</h2>
+                <p>Los gatos forman parte de nuestras familias desde tiempos inmemoriales. Son increíbles compañeros con
+                    los que acurrucarse juntos en el sofá, pasar ratos geniales jugando y tan divertidos que puedes
+                    aburrir a tus compañeros de trabajo con mil anécdotas cada día, pero ¿cuánto sabemos realmente sobre
+                    la historia de los gatos? Para muchos de nosotros, los orígenes de nuestros felinos son un completo
+                    misterio y se sabe muy poco sobre el razonamiento detrás de ciertos comportamientos.
+                    <br>
+                    Para ayudarte a comprender mejor al tigre en miniatura que tienes en casa, hemos elaborado este
+                    artículo que te cuenta todo, desde el origen de los gatos hasta por qué poseen ciertos instintos.
+                    <br>
+                    Se cree que todas las especies de gatos modernos provienen de un antepasado: el gato Montés de
+                    Oriente Medio, Felis Sylvestris. Los investigadores basaron esta teoría en la similitud de sus
+                    estructuras óseas.
+                </p>
+
+                <div id="contenido1">
+                    <!--Este es el contenedor que quiero ocultar/mostrar -->
+                    <p>
+                        Pocos animales han tenido una relación tan compleja con el ser humano como los gatos. Desde que
+                        nuestras historias se cruzaron, lo que probablemente ocurrió hace más de 9.000 años, la
+                        percepción del hombre sobre los felinos ha cambiado significativamente.
+                        <br>
+                        Si en la Antigüedad, eran venerados como encarnaciones de las divinidades, durante la Edad Media
+                        sufrieron persecuciones masivas tras ser asociados a la práctica de brujería y a los movimientos
+                        herejes. Y muchísimos años debieron pasar para que volvieran a ser adoptados como animales de
+                        compañía y pudieran disfrutar plenamente del confort de un hogar tranquilo.
+                        <br>
+                        Si bien la historia del gato vaya más allá de su relación con el ser humano, es inevitable que
+                        la interpretemos y la contemos a partir de nuestra experiencia y vivencia con estos mininos,
+                        basándonos también en los aportes permitidos por los avances en ciencia y tecnología.
+                    </p>
+                </div>
+                <button onclick='muestra_oculta("contenido1")' class="btn btn-primary" form="contenido">+</button>
+
+            </div>
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Imagenes/Gato 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes/Gato Egipcio.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes/gato2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cuidados" class="row">
+            <div class="col-md-6">
+                <img class="cat-image" src="./Imagenes/cuidados1.jpg" alt="Un gato jugando" loading="lazy">
+                <img class="cat-image" src="./Imagenes/cuidados2.png" alt="Un gato jugando" loading="lazy">
+                <img class="cat-image" src="./Imagenes/cuidados3.jpg" alt="Un gato jugando" loading="lazy">
+            </div>
+            <div class="col-md-6">
+                <h2>Cuidados Básicos</h2>
+                <br>
+                <h3>Alimentación</h3>
+                <p>
+                    Debe ser de calidad y adaptada a las etapas de vida del gato. Puedes alimentarle con pienso,
+                    alimentos balanceados secos o alimento húmedo. Para asegurar un equilibrio nutricional, puedes
+                    combinar alimentos secos con húmedos y dejarle comida todo el día. También es importante que le des
+                    agua fresca y limpia en un recipiente separado, como una fuente, ya que a los gatos les encanta
+                    beber de corrientes de agua.
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3>Aseo</h3>
+                <p>
+
+                    Los gatos son animales muy limpios y se acicalan continuamente a lo largo del día. Sin embargo,
+                    puedes ayudarles a evitar que se formen bolas de pelo cepillando su pelo periódicamente. También
+                    puedes bañarlos una vez al mes con champú específico para gatos, pero ten cuidado con la temperatura
+                    del agua y trata a tu gato con cuidado para que se sienta a gusto.
+                </p>
+                <h3>Uñas</h3>
+                <p>
+                    Debes cortarle las uñas habitualmente para evitar que las tenga demasiado largas y le haga destrozos
+                    a tu casa. Puedes usar rascadores para animarle a usarlos en vez de colgarse de la cortina. Si no
+                    puedes cortarle las uñas tú mismo, puedes llevarlo al veterinario.
+                </p>
+                <br>
+                <h3>Ojos</h3>
+                <p>
+
+                    Los ojos de los gatos son muy delicados y necesitas limpiarlos cuidadosamente, dedicando mayor
+                    importancia a la parte interna.
+                </p>
+                <h3>Vacunación y desparasitación</h3>
+                <p>
+                    Es fundamental vacunar y desparasitar a tu gato para que crezca sano. A partir de los 2 meses de
+                    vida se debe iniciar la vacunación para fortalecer el desarrollo del sistema inmunológico del
+                    gatito, y esto debe ser llevado a cabo por un veterinario cualificado.
+                </p>
+            </div>
+        </section>
+
+        <section id="curiosidades" class="row">
+            <div class="col-md-6">
+                <h2>Curiosidades</h2>
+                <p>
+                    Con una apariencia elegante y extremadamente inteligente, los gatos se han convertido en animales
+                    domésticos que se ganaron el corazón de muchos tutores. Solo son superados por los perros en la
+                    carrera por ser el "mejor amigo del hombre".
+
+                    Si tienes un felino por compañía, vale la pena conocer algunos datos sobre ellos y comprender mejor
+                    su comportamiento.
+                </p>
+                <ol>
+                    <li>Los gatos han estado con los humanos durante casi 10 000 años
+                        Los gatos viven entre los humanos desde las primeras civilizaciones.</li>
+                    <p>
+                        Los estudios demuestran que estos pequeños felinos acompañan a la humanidad durante miles de
+                        años.
+
+                        Un artículo publicado en la revista Science en 2004 informa sobre el descubrimiento de un
+                        esqueleto de gato desenterrado en el sur de Chipre. El esqueleto completo del animal se asoció
+                        estrechamente con un entierro humano de 9 500 años de antigüedad, lo que sugiere que el felino
+                        de ocho meses fue domesticado.
+                    </p>
+                    <li>Los primeros gatos domesticados eran hábiles cazadores</li>
+                    <p>
+                        Se cree que la domesticación de los gatos estuvo motivada por la gran habilidad de estos
+                        animales para cazar roedores y otras plagas.
+
+                        En 2013, un equipo de arqueólogos encontró ocho huesos de gato en una excavación en un antiguo
+                        asentamiento conocido como Quanhucun en el centro de China.
+
+                        Los huesos, que datan de hace unos 5 300 años, se encontraron junto con madrigueras de ratas en
+                        depósitos de granos, tal como informó un artículo publicado en la revista Science en diciembre
+                        de ese año. Según los investigadores, los hallazgos indican que los animales ayudaron a los
+                        habitantes con el problema de la plaga al cazar roedores.
+                    </p>
+                    <li>¿Eran los gatos dioses egipcios?</li>
+                    <p>
+                        Estos felinos se encuentran entre los animales más emblemáticos del arte y la cultura del
+                        antiguo Egipto. Según el Centro de Investigación Estadounidense en Egipto (ARCE), los egipcios
+                        admiraban a los gatos por su naturaleza compleja y dual. Para ellos, los gatos combinaban
+                        gracia, fecundidad y mansedumbre, con agresividad, agilidad y peligro.
+                        <br>
+                        Pero es importante señalar que los egipcios no adoraban a los gatos. En cambio, creían que
+                        ciertas deidades, a menudo representadas con rasgos felinos, compartían rasgos de carácter con
+                        los animales, explica ARCE.
+
+                        Bastet es probablemente la diosa felina más conocida de Egipto. Las ofrendas hechas a esta diosa
+                        seguían con deseos de salud e hijos o de vida y protección.
+                    </p>
+                    <li>
+                        La adaptación del maullido de los gatos para comunicarse con los humanos
+                    </li>
+                    <p>
+                        Un estudio sobre el comportamiento de los gatos domésticos, cuyo artículo fue publicado en 2009
+                        en la revista científica Current Biology, demuestra que los gatos aprendieron a vocalizar un
+                        sonido específico para “entrenar” a sus compañeros humanos.
+
+                        La publicación sugiere que los animales usan una combinación específica de maullidos y ronroneos
+                        para llamar la atención de sus dueños, generalmente pidiendo comida. Según los investigadores,
+                        la vocalización puede estar activando la respuesta natural del ser humano al llanto de un bebé,
+                        ya que el maullido del gato tiene una frecuencia similar al llanto.
+                    </p>
+                    <li>
+                        El parpadeo lento es el equivalente a una sonrisa para gatos
+                    </li>
+                    <p>
+                        Los científicos han descubierto que cerrar los ojos lentamente es la mejor manera de construir
+                        una relación con los gatos. Los expertos en comportamiento animal de la Universidad de Sussex
+                        realizaron dos experimentos para un estudio publicado en Nature's Scientific Reports en 2020.
+
+                        Los resultados indicaron que la técnica de parpadeo lento imita lo que se conoce como la sonrisa
+                        de un gato y parece ayudar a formar un vínculo entre los animales y sus dueños humanos.
+                    </p>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g8fbiFbT0X8?si=IeDIPqEu1BsxqlAe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lv_keF9PWWc?si=gqsd6cMJZ6W20qm6"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h4>&copy; 2024 Gatos Adorables. Todos los derechos reservados.</h4>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
